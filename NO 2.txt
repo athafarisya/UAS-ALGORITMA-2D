@@ -1,0 +1,34 @@
+public class pelanggan{
+    public string TokoSejahtera;
+    public string TokoHasilBumi;
+    public string TokoBersama;
+    public string TokoRizki;
+    public string TokoSarinah;
+    public string TokoBening;
+
+    public pelanggan(string TS, string TB, string Tbr, string TR, string Tsr, string TBn){
+        this.TokoSejahtera = TS;
+        this.TokoHasilBumi = TB;
+        this.TokoBersama = Tbr;
+        this.TokoRizki = TR;
+        this.TokoSarinah = Tsr;
+        this.TokoBening = TBn;
+    }
+
+    public class BinarySearchTree{
+        public class Node{
+            int key;
+            Node left,right;
+
+            public Node(int item)
+        }
+    }
+    public Node search(Node root, int key){
+        if(root==null || root.key==key)
+            return root:
+            if(root.key<key)
+            return search(root,right,key);
+            return search (root.left,key):
+        }
+    }
+}
